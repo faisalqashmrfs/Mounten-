@@ -1,0 +1,114 @@
+.video-section{
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 78, 107, 0.9),#215cbac4), url(./../../img/image.video/1\ 7.png) ;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 17rem;
+    position: relative;
+}
+
+.video-section .top{
+    width: 83%;
+    margin: 0 auto;
+    height: 97px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.video-section .col{
+    width: max-content;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .video-section h2{
+    color: #FFF;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+} 
+.video-section .text{
+    color: #FFF;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.video-section .video{
+    width: 90%;
+    margin: 150px auto 100px auto;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16.201px;
+}
+.video-section .video iframe
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 16.201px;
+}
+.video-section .image{
+    width: 100%;
+}
+.video-section .middle-logo{
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+}
+.video-section .logo{
+        width:100% ;
+
+}
+
+@media screen  and (max-width:900px){
+     .video-section{
+        height: 386px;
+        margin-bottom: 200px;
+    }
+    .video-section .top{
+        height: 97px;
+        padding-top: 3%;
+    }
+    .video-section h2{
+        font-size: 2rem;
+    }
+    .video-section .text{
+        font-size: 11px;
+    }
+    .video-section .video{
+        margin: 50px auto 50px auto;        
+    }
+    .video-section .middle-logo{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+}
+@media screen  and (max-width:600px){
+    .video-section{
+       height: 286px;
+       margin-bottom: 150px;
+   }
+   .video-section .top{
+       height: 97px;
+       padding-top: 1%;
+   }
+   .video-section h2{
+       font-size: 1rem;
+   }
+   .video-section .text{
+       font-size: 8px;
+   }
+   .video-section .video{
+    margin: 25px auto 50px auto;        
+}
+}
+
